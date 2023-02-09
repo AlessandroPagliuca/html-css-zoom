@@ -33,13 +33,17 @@ body{
     justify-content: right;
     align-items: flex-start;
     padding: 15px 10px;
+    width: 100vw;
+    height: 6vh;
 }
+
+
 .text-nav{
     font-family: sans-serif;
     font-size: 14px;
     color: var(--icon-w);
     background-color: var(--bg-meeting);
-    padding: 5px;
+    padding: 6px;
     border-radius: 6px;
 }
 .m-right{
@@ -48,3 +52,21 @@ body{
 /* /header*/
 
 /*main*/
+.container-main{
+    width: calc(100% / 7);
+    height: calc(100vw / 5);
+    
+}
+.d-flex{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.card img{
+    width: 100%;
+}
+.card{
+    padding: 4px;
+}
